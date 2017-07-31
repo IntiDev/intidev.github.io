@@ -12,12 +12,21 @@
 		<!--Let browser know website is optimized for mobile-->
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta charset="utf-8"/>
-		<title>  </title>
+		<title> BIENVENIDO </title>
 	</head>
 	<body>
 		<!-- PORTADA -->
-		<section id="portada" class="vistaCompleta gradiente">
-			<i class="small material-icons white-text  mt-3 mr-3 right">menu</i>
+		<section id="portada" class="vistaCompleta gradiente-Princ">
+			<div class="row">
+				<!-- <i class="small material-icons white-text  mt-3 dropdown-button col s12 right center-align" data-activates="opcsMenu">menu</i> -->
+				<!-- Opciones menu -->
+				<ul id="opcsMenu" class="dropdown-content">
+				  <li class=""><a href=""><i class="material-icons -text text-darken-4">menu</i></a></li>
+				  <li id=""><a href="#datosContacto" ><i class="material-icons -text text-darken-4">email</i>Contacto</a></li>
+				  <li><a href="#seccionProyectos"><i class="material-icons -text text-darken-4">work</i>Proyectos</a></li>
+				  <li><a href="assets/yesenia_escarcega_cv.pdf"><i class="material-icons -text text-darken-4">file_download</i>CV</a></li>
+				</ul>
+			</div>
 			<div class="marcoLogo row">
 				<img class="responsive-img offset-s3 col s6 mt-10" src="assets/icons/inti-white.svg" alt="logo-Inti">
 				<ul class="offset-s2 col s1 center estrellas mt-10 ">
@@ -45,7 +54,7 @@
 						<div class="card-panel z-depth-1">
 							<div class="row valign-wrapper">
 								<div class="col s3">
-									<img src="assets/img/mex.png" alt="" class="circle responsive-img">
+									<img src="assets/img/mex.png" alt="méxico" class="circle responsive-img">
 								</div>
 								<div class="col s9">
 									<p>
@@ -90,7 +99,7 @@
 						</ul>
 					</span>
 					<br>
-					<hr class="container azul-tema mt-1">
+					<!-- <hr class="container azul-tema mt-1"> -->
 					<span class="row">
 						<ul class="offset-s11 col s1 center estrellas mt-01 mt-1">
 							<li><a href="#contacto"><i class="material-icons rosa-tema"> star_border </i></a></li>
@@ -100,20 +109,141 @@
 						<h5 class="offset-s4 col s4 rosa-tema"> Pasatiempos </h5>
 				  </div>
 					<section class="row center-align">
-						<i class="medium material-icons purple-text text-darken-3 offset-s3 col s1 animated swing"> flight_takeoff </i>
-						<i class="medium material-icons indigo-text col s1 animated bounce"> color_lens </i>
+						<i class="medium material-icons purple-text text-darken-3 offset-s3 col s1 animated infinite swing"> flight_takeoff </i>
+						<i class="medium material-icons indigo-text col s1 animated  infinite bounce"> color_lens </i>
 						<!-- <i class="medium material-icons indigo-text col s1"> brush </i> -->
-						<i class="medium material-icons purple-text text-darken-3 col s1 animated swing"> directions_bike </i>
-						<i class="medium material-icons indigo-text col s1 animated bounce"> extension </i>
-						<i class="medium material-icons purple-text text-darken-3 col s1 animated swing"> headset </i>
-						<i class="medium material-icons indigo-text col s1 animated bounce"> pets </i>
+						<i class="medium material-icons purple-text text-darken-3 col s1 animated infinite swing"> directions_bike </i>
+						<i class="medium material-icons indigo-text col s1 animated  infinite bounce"> extension </i>
+						<i class="medium material-icons purple-text text-darken-3 col s1 animated  infinite swing"> headset </i>
+						<i class="medium material-icons indigo-text col s1 animated  infinite  bounce"> pets </i>
 					</section>
 					<section class="row center-align mt-3">
-						<a id="cv" href="assets/yesenia_escarcega_cv.pdf" download class="waves-effect waves-light btn offset-s5 col s2 bck-claro animated infinite rubberBand">
+						<a id="cv" href="assets/yesenia_escarcega_cv.pdf" download class="waves-effect waves-light btn offset-s5 col s2 bck-claro animated rubberBand down-cv">
 							Descargar CV
 						</a>
 					</section>
 				</section>
+		</section>
+		<!-- SKILLS -->
+		<section id="skills" class="gradiente-Sec">
+			<h3 class="center">
+				<i class="material-icons  purple-text text-darken-3"> settings</i>
+				Habilidades Técnicas
+				<i class="material-icons  purple-text text-darken-3"> settings </i> <!-- build -->
+			</h3>
+			<section class="row mt-7 ">
+				<!--  Flujo de trabajo-->
+				<section class=" offset-s2 col s5">
+					<ul id="flujo" class="dropdown-content ">
+					  <li><a href="#!">
+						  Agile
+						  <!-- <span class="badge">1</span> -->
+					  	  </a>
+					  </li>
+					  <li>
+						  <a href="#!">
+							  Slack
+							  <!-- <span class="new badge">1</span> -->
+						  </a>
+					  </li>
+					  <li><a href="#!">Trello</a></li>
+					</ul>
+					<a class="btn dropdown-button" href="#!" data-activates="flujo">
+						FLUJO DE TRABAJO
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>
+				</section>
+				<!-- Front-end -->
+				<ul id="front" class="dropdown-content offset-s1 col s4">
+				  <li><a href="#!">AJAX</a></li>
+				  <li><a href="#!">Bootstrap</a></li>
+				  <li><a href="#!">CSS3</a></li>
+				  <li><a href="#!">ES6</a></li>
+				  <li><a href="#!">HTML5</a></li>
+				  <li><a href="#!">JavaScript</a></li>
+				  <li><a href="#!">jQuery</a></li>
+				  <li><a href="#!">Materialize</a></li>
+				  <li><a href="#!">SASS</a></li>
+				</ul>
+				<a class="btn dropdown-button" href="#!" data-activates="front">
+					FRONT-END
+					<i class="material-icons right">arrow_drop_down</i>
+				</a>
+
+			</section>
+
+			<section class="row mt-3">
+				<!-- Gestión de actividades -->
+				<section class="offset-s3 col s5">
+					<ul id="gestion" class="dropdown-content ">
+					  <li><a href="#!"> Git </a></li>
+					  <li><a href="#!"> GitHub</a></li>
+					  <li><a href="#!"> Latex </a></li>
+					</ul>
+					<a class="btn dropdown-button" href="#!" data-activates="gestion">
+						GESTIÓN DE ACTIVIDADES
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>
+				</section>
+				<!-- Otros -->
+				<section class="offset-s1 col s3">
+					<ul id="otros" class="dropdown-content ">
+					  <li><a href="#!"> MySQL </a></li>
+					  <li><a href="#!"> UML </a></li>
+					  <!-- <li><a href="#!"> Latex </a></li> -->
+					</ul>
+					<a class="btn dropdown-button" href="#!" data-activates="otros">
+						OTROS
+						<i class="material-icons right">arrow_drop_down</i>
+					</a>
+				</section>
+			</section>
+		</section>
+		<!-- PROYECTOS -->
+		<section id="proyectos" class="bck-melon">
+			<h3 class="center">
+				<i class="material-icons  purple-text text-darken-3"> code </i>
+				PROYECTOS
+				<i class="material-icons  purple-text text-darken-3"> code </i> <!-- build -->
+			</h3>
+		</section>
+		<!-- CONTACTO -->
+		<section id="contacto" class="gradiente-Princ">
+			<h3 class="center">
+				<i class="material-icons  purple-text text-darken-3"> computer</i>
+				TRABAJEMOS JUNTOS
+				<i class="material-icons  purple-text text-darken-3"> laptop </i> <!-- build -->
+			</h3>
+			<section class="container">
+	          <div class="row">
+	            <p class="center">
+	              Si quieres ver a detalle mi trabajo visita
+	            </p>
+	            <div class="offset-s5 col s2">
+	  			  <a href="https://github.com/IntiDev">
+	  				  <img src="assets/icons/GitHub-Logo.png" alt="github" class="responsive-img">
+	  			  </a>
+	            </div>
+	          </div>
+	          <div class="row">
+	            <p class="center">
+	              Si te gusto mi perfil pongámonos en contacto
+	            </p>
+	            <div class="offset-s3 col s2 link">
+	              <a href="https://www.linkedin.com/in/intidev">
+	  				<div class="link">
+	  					<img src="assets/icons/link.png" alt="linkedin" class="responsive-img">
+	  				</div>
+	  			</a>
+	            </div>
+	  		  <div class="offset-s2 col s2">
+	  			  <a href="mailto:yeseniase@outlook.it?Subject=Contacto" target="_top">
+	                	<img src="assets/icons/correo.png" alt="email" class="responsive-img">
+	  			  </a>
+	  		  </div>
+	          </div>
+
+	        </section>
 		</section>
 		<!-- SCRIPTS-->
 	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

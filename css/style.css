@@ -11,6 +11,9 @@ body{
   /*width: 100vw;  */
 }
 
+nav{
+	background-color: transparent;
+}
 /*  MARGENES */
 .mt-01{
   margin-top: -1%;
@@ -68,11 +71,15 @@ body{
   font-weight: bold;
 }
   /*prueba2*/
-.gradiente{
+.gradiente-Princ{
   background: linear-gradient(135deg, rgba(227,192,192,0.93) 0%, rgba(241,151,163,0.9) 35%, rgba(129,112,145,0.95) 100%);
   /*linear-gradient(135deg, rgba(246,186,166,1) 0%, rgba(241,151,163,1) 41%, rgba(189,93,115,1) 100%); color1*/
   -moz-linear-gradient(left, rgba(246,186,166,1) 0%, rgba(241,151,163,1) 51%, rgba(189,93,115,1) 100%);
   /*-webkit-gradient(left top, right top, color-stop(0%, rgba(246,186,166,1)), color-stop(51%, rgba(241,151,163,1)), color-stop(100%, rgba(189,93,115,1)));*/
+}
+
+.gradiente-Sec{
+	background: linear-gradient(135deg, rgba(129,112,145,1) 0%, rgba(241,151,163,1) 48%, rgba(241,223,223,1) 100%);
 }
 
 .bck-oscuro{
@@ -171,6 +178,6 @@ p{
   text-align: justify;
 }
 
-.btn{
+.down-cv{
   border-radius: 50%;
 }
