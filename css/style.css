@@ -82,6 +82,10 @@ body{
 .bck-claro{
   background-color: #f197a3;
 }
+
+.bck-melon{
+  background-color: rgba(227, 192, 192, 0.5);
+}
 /*   ANIMACIÓN PORTADA   */
 /*$anime-time: 8s;
 
