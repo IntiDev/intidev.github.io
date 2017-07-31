@@ -2,10 +2,11 @@
 <html  lang="es">
 	<head>
 		<!--Import Google Icon Font-->
-	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet"/>
-	    <!--Import materialize.css-->
-	    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	  <!--Import materialize.css-->
+	  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="icon" type="image/png" href="assets/icons/inti-icon.PNG" />
 		<!--Let browser know website is optimized for mobile-->
@@ -14,8 +15,106 @@
 		<title>  </title>
 	</head>
 	<body>
-
-
+		<!-- PORTADA -->
+		<section id="portada" class="vistaCompleta gradiente">
+			<i class="small material-icons white-text  mt-3 mr-3 right">menu</i>
+			<div class="marcoLogo row">
+				<img class="responsive-img offset-s3 col s6 mt-10" src="assets/icons/inti-white.svg" alt="logo-Inti">
+				<ul class="offset-s2 col s1 center estrellas mt-10 ">
+					<li><i class="material-icons white-text opc-Active"> star </i></li>
+					<li><a href="#about"><i class="material-icons white-text mt-95"> star_border </i></a></li>
+					<li><a href="#skills"><i class="material-icons white-text mt-95"> star_border </i></a></li>
+					<li><a href="#proyectos"><i class="material-icons white-text mt-95"> star_border </i></a></li>
+				</ul>
+			</div>
+			<div class="row ">
+				<i class="large material-icons azul-tema offset-s5 col s2 animated infinite rubberBand center-align">arrow_downward</i>
+				<ul class="offset-s4 col s1 center estrellas mt-3">
+					<li><a href="#contacto"><i class="material-icons white-text"> star_border </i></a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="about" class="">
+				<h3 class="center mt-3">
+					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
+					SOBRE MÍ
+					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
+				</h3>
+				<section class="row mt-3">
+					<div class="offset-s2 col s8 index-2">
+						<div class="card-panel z-depth-1">
+							<div class="row valign-wrapper">
+								<div class="col s3">
+									<img src="assets/img/mex.png" alt="" class="circle responsive-img">
+								</div>
+								<div class="col s9">
+									<p>
+										<span class="resaltar"> Soy desarrolladora front-end Jr. Entusiasta por aprender nuevas tecnologías 💻
+										y apasionada por el desarrollo móvil y la realidad aumentada.</span>
+										<br>
+										Además, una amante de los perros 🐾, la naturaleza 🌸, me encanta viajar 👣 y pintar 🎨,
+										conocer nuevas costumbres y culturas, disfruto mucho las tardes lluviosas ☔ más si son acompañadas de un buen chocolate
+										caliente ☕ y churros ❤.
+										<br>
+										Amo la diversidad de mi país 🗻🌵
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="row"> -->
+						<!-- <img class="responsive-img mt-20 offset-s3 col s6" src="assets/icons/inti-white.svg" alt="logo-Inti"> -->
+						<ul class="offset-s1 col s1 center estrellas">
+							<li><a href="#portada"><i class="material-icons rosa-tema"> star_border </i></a></li>
+							<li><i class="material-icons rosa-tema mt-95"> star </i></li>
+						</ul>
+					<!-- </div> -->
+				</section>
+				<section class=" center-align">
+					<div class="row">
+						<h5 class="offset-s4 col s4 rosa-tema"> Nombre Completo</h5>
+				  </div>
+						<span class="row resaltar">
+							<span class="offset-s5 col s2"> Yesenia Sánchez Escárcega </span>
+							<ul class="offset-s4 col s1 center estrellas mt-03">
+								<li><a href="#skills"><i class="material-icons rosa-tema"> star_border </i></a></li>
+							</ul>
+						</span>
+					<div class="row">
+						<h5 class="offset-s4 col s4 rosa-tema"> Correo Eléctronico</h5>
+				  </div>
+					<span class="row resaltar">
+						<span class="offset-s5 col s2"> yeseniasescarcega@outlook.it </span>
+						<ul class="offset-s4 col s1 center estrellas mt-01">
+							<li><a href="#proyectos"><i class="material-icons rosa-tema"> star_border </i></a></li>
+						</ul>
+					</span>
+					<br>
+					<hr class="container azul-tema mt-1">
+					<span class="row">
+						<ul class="offset-s11 col s1 center estrellas mt-01 mt-1">
+							<li><a href="#contacto"><i class="material-icons rosa-tema"> star_border </i></a></li>
+						</ul>
+					</span>
+					<div class="row index-2">
+						<h5 class="offset-s4 col s4 rosa-tema"> Pasatiempos </h5>
+				  </div>
+					<section class="row center-align">
+						<i class="medium material-icons purple-text text-darken-3 offset-s3 col s1 animated swing"> flight_takeoff </i>
+						<i class="medium material-icons indigo-text col s1 animated bounce"> color_lens </i>
+						<!-- <i class="medium material-icons indigo-text col s1"> brush </i> -->
+						<i class="medium material-icons purple-text text-darken-3 col s1 animated swing"> directions_bike </i>
+						<i class="medium material-icons indigo-text col s1 animated bounce"> extension </i>
+						<i class="medium material-icons purple-text text-darken-3 col s1 animated swing"> headset </i>
+						<i class="medium material-icons indigo-text col s1 animated bounce"> pets </i>
+					</section>
+					<section class="row center-align mt-3">
+						<a href="assets/yesenia_escarcega_cv.pdf" download class="waves-effect waves-light btn offset-s5 col s2 bck-claro animated infinite rubberBand">
+							Descargar CV
+						</a>
+					</section>
+				</section>
+		</section>
 		<!-- SCRIPTS-->
 	    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	    <script type="text/javascript" src="js/materialize.js"></script>
