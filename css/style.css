@@ -15,12 +15,28 @@ nav{
 	background-color: transparent;
 }
 /*  MARGENES */
+
+.mb-3{
+	margin-bottom: 3%;
+}
 .mt-01{
   margin-top: -1%;
 }
 
 .mt-03{
   margin-top: -3%;
+}
+
+.mt-05{
+	margin-top: -5%;
+}
+
+.algo{
+	margin-top: -15%;
+}
+
+.nose{
+	margin-top: -30%;
 }
 
 .mt-1{
@@ -43,10 +59,16 @@ nav{
   margin-top: 20%;
 }
 
+.mt-50{
+	margin-top: 50%;
+}
 .mt-95{
   margin-top: 95%;
 }
 
+.ml-10{
+	margin-left: 10%;
+}
 .ml-27{
   margin-left: 27%;
 }
@@ -91,7 +113,7 @@ nav{
 }
 
 .bck-melon{
-  background-color: rgba(227, 192, 192, 0.5);
+  /*background-color: rgba(227, 192, 192, 0.5);*/
 }
 /*   ANIMACIÓN PORTADA   */
 /*$anime-time: 8s;
