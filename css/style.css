@@ -31,6 +31,9 @@ nav{
 	margin-top: -5%;
 }
 
+.mt-07{
+	margin-top: -12%;
+}
 .algo{
 	margin-top: -15%;
 }
@@ -113,7 +116,7 @@ nav{
 }
 
 .bck-melon{
-  /*background-color: rgba(227, 192, 192, 0.5);*/
+  background-color: rgba(227, 192, 192, 0.5);
 }
 /*   ANIMACIÓN PORTADA   */
 /*$anime-time: 8s;
@@ -177,6 +180,9 @@ $main-color: #69ca62;
 
 .estrellas > li > i {
   cursor: pointer;
+}
+.sec1{
+
 }
 
 .index-2{
