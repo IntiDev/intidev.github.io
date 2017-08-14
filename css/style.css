@@ -49,7 +49,7 @@ section{
 
   #cv{
     width: 100px;
-	margin-left: -3%;
+	/*margin-left: -3%;*/
   }
   /*SKILLS*/
   #skills > section > h3{
