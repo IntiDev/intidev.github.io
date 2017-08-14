@@ -18,8 +18,52 @@ section{
 
 
 /*MEDIA QUERYS */
+@media (min-width:320px) and (max-width:479px){
 
+}
 
+@media (min-width:480px) and (max-width:767px){
+
+}
+
+@media(min-width: 768px) and (max-width:1023px){
+
+}
+
+@media(min-width: 1024px){
+  .marcoLogo{
+    /*margin-top: 10%;*/
+  }
+
+  #flecha-down{
+    /*margin-top: 5%;*/
+  }
+
+  #titulo-sec2{
+    margin-top: 2%;
+  }
+
+  #menu-about{
+    margin-top: -10%;
+  }
+
+  #list1{
+    margin-left: -20%;
+  }
+
+  #ul-2{
+    margin-left: -20%;
+  }
+
+}
+
+#ul-1> li{
+  opacity: 0;
+}
+
+#ul-2> div> li{
+  opacity: 0;
+}
 /*  MARGENES */
 
 .mb-3{
@@ -70,9 +114,19 @@ section{
   margin-top: 95%;
 }
 
+#p1{
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+
+.ml-5{
+  margin-left: 50%;
+}
+
 .ml-10{
 	margin-left: 10%;
 }
+
 .ml-27{
   margin-left: 27%;
 }
@@ -83,6 +137,10 @@ section{
 
 .mr-3{
   margin-right: 3%;
+}
+
+.mr-5{
+  margin-right: 5%;
 }
 
 .azul-tema{
@@ -176,7 +234,6 @@ $main-color: #69ca62;
 
 /*   MENÚ ESTRELLAS   */
 .estrellas{
-  z-index: 1;
 }
 
 .estrellas > li > i {
@@ -193,7 +250,19 @@ p{
   text-align: justify;
 }
 
+/*.hobbies: hoover{
+
+}*/
+
 .down-cv{
   border-radius: 50%;
   margin: 3%;
+}
+
+#menu-proy{
+  padding-left: 4%;
+}
+
+#menu-proy > li{
+  padding-bottom: 80%;
 }

@@ -27,13 +27,13 @@
 				  <li><a href="#skills" ><i class="material-icons -text text-darken-4">settings</i>Habilidades Técnicas</a></li>
 				  <li><a href="#proyectos"><i class="material-icons -text text-darken-4">work</i>Proyectos</a></li>
 				  <li><a href="#contacto" ><i class="material-icons -text text-darken-4">email</i>Contacto</a></li>
-				  <li><a href="assets/yesenia_escarcega_cv.pdf"><i class="material-icons -text text-darken-4">file_download</i>CV</a></li>
+				  <li><a href="assets/yesenia_escarcega_cv.pdf" target="_blank"><i class="material-icons -text text-darken-4">search</i>CV</a></li>
 				</ul>
 			</section>
 			<section class="marcoLogo row">
 				<img class="responsive-img offset-s2 offset-m3 offset-3 col s8 m6 6 " src="assets/icons/inti-white.svg" alt="logo-Inti">
 				<!-- menu estrellas -->
-				<ul class="offset-s1 offset-m2 ofsset-2 col s1 m1 1 center estrellas mt-3 ">
+				<ul id="menu-portada" class="offset-s1 offset-m2 ofsset-2 col s1 m1 1 center estrellas mt-3 ">
 					<li title="Menú"><i class="material-icons white-text animated infinite rubberBand"> star </i></li>
 					<li title="Acerca de mí"><a data-scroll href="#about"><i class="material-icons white-text mt-95"> star_border </i></a></li>
 					<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons white-text mt-95"> star_border </i></a></li>
@@ -41,7 +41,7 @@
 				</ul>
 			</section>
 			<section class="row ">
-				<i class="large material-icons azul-tema offset-s5 offset-m5 offset-5 col s2 m2 2animated infinite rubberBand center-align">arrow_downward</i>
+				<i id="flecha-down" class="medium material-icons azul-tema offset-s5 offset-m5 offset-5 col s2 m2 2 animated infinite rubberBand center-align">arrow_downward</i>
 				<ul class="offset-s4 offset-m4 offset-4 col s1 m1 1 center estrellas mt-3">
 					<li title="Contáctame"><a href="#contacto"><i class="material-icons white-text"> star_border </i></a></li>
 				</ul>
@@ -51,20 +51,20 @@
 		<section id="about" class="bck-melon">
 			<section class="row">
 				<div class="">
-				<h3 class="center offset-s2 offset-m4 offset-4 col s10 m4 4">
+				<h3 id="titulo-sec2"class="center offset-s2 offset-m4 offset-4 col s10 m4 4">
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 					ACERCA DE MÍ
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 				</h3>
 			</section>
 				<section class="row mt-3">
-					<div class="offset-s2 offset-m1 offset-1 col s10 m5 5 ">
+					<div class="offset-s2 offset-m1 offset-1 col s10 m9 9 ">
 						<div class="card-panel z-depth-1">
 							<div class="row valign-wrapper">
 								<div class="col s4 m3 3">
 									<img src="assets/img/mex.png" alt="méxico" class="circle responsive-img">
 								</div>
-								<div class="col s8 m9 9">
+								<div class="col s8 m12 12">
 									<p>
 										<span class="resaltar"> Soy desarrolladora front-end Jr. Entusiasta por aprender nuevas tecnologías 💻
 										y apasionada por el desarrollo móvil y la realidad aumentada.</span>
@@ -79,7 +79,7 @@
 							</div>
 						</div>
 					</div>
-					<section class="offset-s2 col s12 m3 3">
+					<section class="offset-s2 offset-m4 offset-4 col s12 m4 4">
 						<br>
 							<h5 class=" rosa-tema center mt-20"> Nombre Completo</h5>
 								<p class="resaltar center-align"> Yesenia Sánchez Escárcega </p>
@@ -88,7 +88,7 @@
 							<h5 class=" rosa-tema center-align"> Correo Eléctronico</h5>
 							<p class="center-align resaltar"> yeseniasescarcega@outlook.it </p>
 					</section>
-					<ul class="offset-s1 offset-m1 offset-1 col s1 m1 1 center estrellas">
+					<ul id="menu-about" class="offset-s1 offset-m3 offset-3 col s1 m1 1 center estrellas">
 						<li title="Portada"><a href="#portada"><i class="material-icons rosa-tema "> star_border </i></li>
 						<li title="Acerca de mí" class="animated infinite rubberBand"><i class="material-icons rosa-tema mt-95"> star </i></li>
 						<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons rosa-tema mt-95"> star_border </i></a></li>
@@ -101,16 +101,15 @@
 						<h5 class="offset-s2 offset-m4 offset-4 col s8 m4 4 rosa-tema resaltar"> Pasatiempos </h5>
 				  </div>
 					<section class="row center-align">
-						<i class="medium material-icons purple-text text-darken-3 offset-s3 col s1 animated infinite swing"> flight_takeoff </i>
-						<i class="medium material-icons indigo-text col s1 animated  infinite bounce"> color_lens </i>
-						<!-- <i class="medium material-icons indigo-text col s1"> brush </i> -->
-						<i class="medium material-icons purple-text text-darken-3 col s1 animated infinite swing"> directions_bike </i>
-						<i class="medium material-icons indigo-text col s1 animated  infinite bounce"> extension </i>
-						<i class="medium material-icons purple-text text-darken-3 col s1 animated  infinite swing"> headset </i>
-						<i class="medium material-icons indigo-text col s1 animated  infinite  bounce"> pets </i>
+						<i class="medium material-icons hobbies purple-text text-darken-3 offset-s3 col s1"> flight_takeoff </i>
+						<i class="medium material-icons hobbies indigo-text col s1"> color_lens </i>
+						<i class="medium material-icons hobbies purple-text text-darken-3 col s1"> directions_bike </i>
+						<i class="medium material-icons hobbies indigo-text col s1"> extension </i>
+						<i class="medium material-icons hobbies purple-text text-darken-3 col s1"> headset </i>
+						<i class="medium material-icons hobbies indigo-text col s1"> pets </i>
 					</section>
 					<section class="row center-align mt-3">
-						<a id="cv" href="assets/yesenia_escarcega_cv.pdf" download class="waves-effect waves-light btn offset-s5 col s2 bck-claro animated rubberBand down-cv">
+						<a id="cv" href="assets/yesenia_escarcega_cv.pdf" target="_blank" download class="waves-effect waves-light btn offset-s5 col s2 bck-claro animated rubberBand down-cv">
 							Descargar CV
 						</a>
 					</section>
@@ -119,62 +118,96 @@
 		<!-- SKILLS -->
 		<section id="skills" class="gradiente-Sec">
 			<section class="row">
-				<h3 class="center offset-s1 offset-m3 offset-3 col s10 m6 6" style="padding:2%">
+				<h3 class="center offset-s1 offset-m2 offset-2 col s10 m8 8" style="padding:2%">
 					<i class="material-icons  white-text "> settings</i>
 					Habilidades Técnicas
 					<i class="material-icons  white-text"> settings </i> <!-- build -->
 				</h3>
 			</section>
-			<section class="row mt-7 ">
-				<!--  Flujo de trabajo-->
-				<section class=" offset-s2 offset-m2 offset-2 col s8 m4 4">
-					<ul id="flujo" class="dropdown-content ">
-					  <li><a href="#!">
-						  Agile
-						  <!-- <span class="badge">1</span> -->
-					  	  </a>
-					  </li>
-						<li><a href="#!"> Git </a></li>
-					 <li><a href="#!"> GitHub</a></li>
-					 <li><a href="#!"> Latex </a></li>
-					  <li>
-						  <a href="#!">
-							  Slack
-							  <!-- <span class="new badge">1</span> -->
-						  </a>
-					  </li>
-					  <li><a href="#!">Trello</a></li>
+			<section class="row">
+				<!--  -->
+				<div class="offset-s2 offset-m3 offset-3 col s8 m3 3">
+					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-1')">FLUJO DE TRABAJO & GESTIÓN DE ACTVS</a>
+					<ul id="ul-1" class="mt-3">
+						<li>
+							<h5><a href="#">Agile</a></h5>
+							<p  class="resaltar">Intermedio</p class="resaltar">
+						</li>
+						<li >
+							<h5><a href="#">Git</a></h5>
+							<p class="resaltar">Intermedio</p>
+						</li>
+						<li >
+							<h5><a href="#">GitHub</a></h5>
+							<p class="resaltar">Intermedio</p>
+						</li>
+						<li >
+							<h5><a href="#">Latex</a></h5>
+							<p class="resaltar">Básico</p>
+						</li>
+						<li >
+							<h5><a href="#">Slack</a></h5>
+							<p class="resaltar">Intermedio</p>
+						</li>
+						<li >
+							<h5><a href="#">Trello</a></h5>
+							<p class="resaltar">Intermedio</p>
+						</li>
 					</ul>
-					<a class="btn dropdown-button" href="#!" data-activates="flujo">
-						FLUJO DE TRABAJO & GESTIÓN DE ACTVS
-						<i class="material-icons right animated infinite rubberBand">arrow_drop_down</i>
-					</a>
-				</section>
-				<!-- Front-end -->
-				<section class="offset-s5 offset-m1 offset-1 col s6 m3 3">
-					<ul id="front" class="dropdown-content ">
-					  <li><a href="#!">AJAX</a></li>
-					  <li><a href="#!">Bootstrap</a></li>
-					  <li><a href="#!">CSS3</a></li>
-					  <li><a href="#!">ES6</a></li>
-					  <li><a href="#!">HTML5</a></li>
-					  <li><a href="#!">JavaScript</a></li>
-					  <li><a href="#!">jQuery</a></li>
-					  <li><a href="#!">Materialize</a></li>
-					  <li><a href="#!">SASS</a></li>
+				</div>
+				<!--  -->
+				<div class="offset-s2 offset-m1 offset-1 col s8 m3 3">
+					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-2')">FRONT-END</a>
+					<ul id="ul-2" class="mt-3 row">
+						<div class="col s6 ">
+							<li>
+								<h5><a href="#">AJAX</a></h5>
+								<p class="resaltar">Básico</p>
+							</li>
+							<li >
+								<h5><a href="#">Bootstrap</a></h5>
+								<p class="resaltar">Intermedio</p>
+							</li>
+							<li >
+								<h5><a href="#">CSS3</a></h5>
+								<p class="resaltar">Intermedio</p>
+							</li>
+							<li >
+								<h5><a href="#">ES6</a></h5>
+								<p class="resaltar">Básico</p>
+							</li>
+							<li >
+								<h5><a href="#">HTML5</a></h5>
+								<p class="resaltar">Intermedio</p>
+							</li>
+						</div>
+						<div class="col s6">
+							<li >
+								<h5><a href="#">JavaScript</a></h5>
+								<p class="resaltar">Intermedio</p>
+							</li>
+							<li >
+								<h5><a href="#">jQuery</a></h5>
+								<p class="resaltar">Básico</p>
+							</li>
+							<li >
+								<h5><a href="#">Materialize</a></h5>
+								<p class="resaltar">Intermedio</p>
+							</li>
+							<li >
+								<h5><a href="#">SASS</a></h5>
+								<p class="resaltar">Básico</p>
+							</li>
+						</div>
 					</ul>
-					<a class="btn dropdown-button" href="#!" data-activates="front">
-						FRONT-END
-						<i class="material-icons right animated infinite rubberBand">arrow_drop_down</i>
-					</a>
-				</section>
-
-				<ul class="offset-s11 offset-m1 offset-1 col s1 m1 1 center estrellas mt-07">
+				</div>
+				<!--  -->
+				<ul class="offset-s1 offset-m1 offset-1 col s1 m1 1 center estrellas">
 					<li title="Portada"><a href="#portada"><i class="material-icons purple-text text-darken-3"> star_border </i></a></li>
-					<li title="Acerca de mí"><a href="#about"><i class="material-icons purple-text text-darken-3 mt-20"> star_border </i></a></li>
-					<li title="Habilidades técnicas" class="animated infinite rubberBand"><a href=""><i class="material-icons purple-text text-darken-3 mt-20"> star </i></a></li>
-					<li title="Proyectos"><a href="#proyectos"><i class="material-icons purple-text text-darken-3 mt-20"> star_border </i></a></li>
-					<li title="Contáctame"><a href="#contacto"><i class="material-icons purple-text text-darken-3 mt-20"> star_border </i></a></li>
+					<li title="Acerca de mí"><a href="#about"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
+					<li title="Habilidades técnicas" class="animated infinite rubberBand"><a href=""><i class="material-icons purple-text text-darken-3 mt-95"> star </i></a></li>
+					<li title="Proyectos"><a href="#proyectos"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
+					<li title="Contáctame"><a href="#contacto"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
 				</ul>
 			</section>
 		</section>
@@ -188,61 +221,74 @@
 				</h3>
 			</section>
 			<section class="row">
-				<div class=" offset-s2 offset-m1 offset-1 col s8 m3 3 bck-oscuro mr-3">
+			<!-- Proyecto 1 -->
+				<div id="p1" class="col s8 m3 l3 ml-Dos mr-3 bck-oscuro">
 		          <div class="card">
 		            <div class="card-image">
 		              <img src="assets/img/sublime.gif">
-		              <span class="card-title rosa-tema">YAPE</span>
+		              <span class="card-title rosa-tema">AgenDate</span>
 		            </div>
 		            <div class="card-content">
 		              <p>
-										Proyecto basado en la aplición móvil del mismo nombre. <br>
-										<!-- Tecnologías usadas: <br> -->
+										Demo de aplicación que permite el registro de usuarios a diferentes eventos,
+										muestra la agenda mensual y diaria.<br>
+										Tecnologías usadas: <strong> HTML5, CSS3, JS, jQuery, Materialize, SASS, logIn con google, archivos .xls.</strong>
 									</p>
 		            </div>
 		            <div class="card-action">
-		              <a href="https://github.com/IntiDev/yape">Repositorio Git Hub </a>
+		              <a href="https://github.com/IntiDev/agendate" target="_blank">Repositorio Git</a>
+									<a href="https://memecast.github.io/agendate/" target="_blank"><i class="material-icons">search</i></a>
+									<a href="https://xd.adobe.com/view/2e507846-a30b-4e15-9907-7bfaf8c0ab5d" target="_blank"> Flujo de la aplicación</a>
 		            </div>
 		          </div>
 		        </div>
-				<!-- proyecto2 -->
-				<div class="col s8 m3 3 bck-oscuro mr-3">
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="assets/img/sublime.gif">
-		              <span class="card-title rosa-tema">CAPITÁN</span>
-		            </div>
-		            <div class="card-content">
-		              <p>
-										Proyecto basado en la página de contenido educativo de Laboratoria Coding  <br>
-										<!-- Tecnologías usadas: <br> -->
-									</p>
-		            </div>
-		            <div class="card-action">
-		              <a href="https://github.com/IntiDev/capitan_sass">Repositorio Git Hub </a>
-		            </div>
-		          </div>
-		        </div>
-				<!-- proyecto3 -->
-				<div class=" col s8 m3 3 bck-oscuro ">
-		          <div class="card">
-		            <div class="card-image">
-		              <img src="assets/img/sublime.gif">
-		              <span class="card-title rosa-tema">LAB Car</span>
-		            </div>
-		            <div class="card-content">
-		              <p>
-										Proyecto final del sprint 4 del bootcamp. <br>
-										<!-- Tecnologías usadas: <br> -->
-								  </p>
-		            </div>
-		            <div class="card-action">
-		              <a href="https://github.com/IntiDev/LabCar">Repositorio Git Hub </a>
-		            </div>
-		          </div>
-		        </div>
+				<!-- proyecto 2 -->
+					<div class=" col s8 m3 l3 bck-oscuro mr-3">
+								<div class="card">
+									<div class="card-image">
+										<img src="assets/img/sublime.gif">
+										<span class="card-title rosa-tema">LAB Car</span>
+									</div>
+									<div class="card-content">
+										<p>
+											Aplicación web como alternativa de transporte que permite el regitro de conductor y/o usuario. <br>
+											Tecnologías usadas: <br> <strong> HTML5, CSS3, Bootstrap, JS.</strong>
+										</p>
+										<br>
+										<br>
+										<br>
+										<br>
+									</div>
+									<div class="card-action">
+										<a href="https://github.com/IntiDev/LabCar" target="_blank">Repositorio Git</a>
+										<a href="https://intidev.github.io/LabCar/" target="_blank"><i class="material-icons">search</i></a>
+									</div>
+								</div>
+							</div>
+					<!-- proyecto 3 -->
+						<div class="col s8 m3 l3 mr-5 bck-oscuro">
+				          <div class="card">
+				            <div class="card-image">
+				              <img src="assets/img/sublime.gif">
+				              <span class="card-title rosa-tema">Descubre mi país</span>
+				            </div>
+				            <div class="card-content">
+				              <p>
+												Aplicación web realizada para una dinámica de "Mistery Skype" con una escuela primaria de
+												Kansas; dónde se muestra información relevante sobre lugares, costumbres y comida típica de
+												nuestro país.
+												 <br>
+												Tecnologías usadas: <br> <strong> HTML5 y CSS3 </strong>
+											</p>
+				            </div>
+				            <div class="card-action">
+				              <a href="https://github.com/IntiDev/descubreMiPais" target="_blank">Repositorio Git</a>
+											<a href="https://intidev.github.io/descubreMiPais/index.html" target="_blank"><i class="material-icons">search</i></a>
+				            </div>
+				          </div>
+				        </div>
 				<!-- menu  estrellas-->
-				<ul class="col s1 center estrellas ">
+				<ul id="menu-proy" class="col s1 m1 l1 estrellas mt-3">
 					<li title="Portada"><a href="#portada"><i class="material-icons rosa-tema"> star_border </i></a></li>
 					<li title="Acerca de mí"><a href="#about"><i class="material-icons rosa-tema mt-95"> star_border </i></a></li>
 					<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons rosa-tema mt-95"> star_border </i></a></li>
@@ -266,38 +312,37 @@
 	              Si quieres ver a detalle mi trabajo visita
 	            </p>
 	            <div class="offset-s4 offset-m5 offset-5 col s4 m2 2">
-	  			  <a href="https://github.com/IntiDev">
-	  				  <img src="assets/icons/GitHub-Logo.png" alt="github" class="responsive-img">
-	  			  </a>
+			  			  <a href="https://github.com/IntiDev" target="_blank">
+			  				  <img src="assets/icons/GitHub-Logo.png" alt="github" class="responsive-img">
+			  			  </a>
 	            </div>
-				<ul class="offset-s4 col s1 m1 1 center estrellas mt-03">
-					<li title="Portada"><a href="#portada"><i class="material-icons purple-text text-darken-3"> star_border </i></a></li>
-					<li title="Acerca de mí"><a href="#about"><i class="material-icons purple-text text-darken-3 mt-10"> star_border </i></a></li>
-					<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons purple-text text-darken-3 mt-10"> star_border </i></a></li>
-				</ul>
+							<ul class="offset-s4 offset-m4 offset-l4 col s1 m1 1 center estrellas mt-03">
+								<li title="Portada"><a href="#portada"><i class="material-icons purple-text text-darken-3"> star_border </i></a></li>
+								<li title="Acerca de mí"><a href="#about"><i class="material-icons purple-text text-darken-3 mt-50"> star_border </i></a></li>
+								<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons purple-text text-darken-3 mt-50"> star_border </i></a></li>
+							</ul>
 	          </div>
 	          <div class="row">
 	            <p class="center">
 	              Si te gustó mi perfil pongámonos en contacto
 	            </p>
 	            <div class="offset-s2 offset-m3 offset-3 col s3 m2 2 link">
-	              <a href="https://www.linkedin.com/in/intidev">
-	  				<div class="link">
-	  					<img src="assets/icons/link.png" alt="linkedin" class="responsive-img">
-	  				</div>
-	  			</a>
+	              <a href="https://www.linkedin.com/in/intidev" target="_blank">
+					  				<div class="link">
+					  					<img src="assets/icons/link.png" alt="linkedin" class="responsive-img">
+					  				</div>
+				  			</a>
 	            </div>
-		  		  <div class="offset-s2 offset-m2 offset-2 col s3 m2 2">
-		  			  <a href="mailto:yeseniase@outlook.it?Subject=Contacto" target="_top">
-		             <img src="assets/icons/correo.png" alt="email" class="responsive-img">
-		  			  </a>
-		  		  </div>
-				  <ul class="offset-s11 col s1 center estrellas mt-07">
-					  <li title ="Proyectos"><i class="material-icons purple-text text-darken-3 "> star_border </i></li>
-						<li title="Contáctame" class="animated infinite rubberBand"><a href="#contacto"><i class="material-icons purple-text text-darken-3 "> star</i></a></li>
-					</ul>
+			  		  <div class="offset-s2 offset-m2 offset-2 col s3 m2 2">
+			  			  <a href="mailto:yeseniase@outlook.it?Subject=Contacto" target="_top">
+			             <img src="assets/icons/correo.png" alt="email" class="responsive-img">
+			  			  </a>
+			  		  </div>
+						  <ul class="offset-s11 col s1 center estrellas mt-07">
+							  <li title ="Proyectos"><i class="material-icons purple-text text-darken-3 mt-20"> star_border </i></li>
+								<li title="Contáctame" class="animated infinite rubberBand"><a href="#contacto"><i class="material-icons purple-text text-darken-3 mt-50"> star</i></a></li>
+							</ul>
 	          </div>
-
 	        </section>
 		</section>
 		<!-- SCRIPTS-->
