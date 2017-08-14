@@ -31,9 +31,9 @@
 				</ul>
 			</section>
 			<section class="marcoLogo row">
-				<img class="responsive-img offset-s2 offset-m2 offset-3 col s8 m8 6 " src="assets/icons/inti-white.svg" alt="logo-Inti">
+				<img id="logo" class="responsive-img offset-s1 offset-m2 offset-l3 col s10 m8 l6 " src="assets/icons/inti-white.svg" alt="logo-Inti">
 				<!-- menu estrellas -->
-				<ul id="menu-portada" class="m-port offset-s1 offset-m1 ofsset-2 col s1 m1 1 center estrellas mt-3 ">
+				<ul id="menu-portada" class="m-port offset-s1 offset-m1 offset-l2 col s1 m1  l1 center estrellas mt-3 ">
 					<li title="Menú"><i class="material-icons white-text animated infinite rubberBand"> star </i></li>
 					<li title="Acerca de mí"><a data-scroll href="#about"><i class="material-icons white-text mt-95"> star_border </i></a></li>
 					<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons white-text mt-95"> star_border </i></a></li>
@@ -42,7 +42,7 @@
 			</section>
 			<section class="row ">
 				<i id="flecha-down" class="medium material-icons azul-tema offset-s5 offset-m5 offset-5 col s2 m2 2 animated infinite rubberBand center-align">arrow_downward</i>
-				<ul id="menu-estrella-2" class="m-port offset-s4 offset-m4 offset-4 col s1 m1 1 center estrellas mt-3">
+				<ul id="menu-estrella-2" class="m-port offset-s4 offset-m4 offset-l4 col s1 m1 l1 center estrellas mt-3">
 					<li title="Contáctame"><a href="#contacto"><i class="material-icons white-text"> star_border </i></a></li>
 				</ul>
 			</section>
@@ -51,20 +51,20 @@
 		<section id="about" class="bck-melon">
 			<section class="row">
 				<div class="">
-				<h3 id="titulo-sec2"class="center offset-s2 offset-m2 offset-4 col s10 m8 4">
+				<h3 id="titulo-sec2"class="center offset-m2 offset-4 col s12 m8 4">
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 					ACERCA DE MÍ
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 				</h3>
 			</section>
-				<section class="row mt-3">
-					<div class="offset-s2 offset-m1 offset-1 col s10 m10 9 ">
+				<section id="sobre-mi" class="row mt-3">
+					<div class="offset-s1 offset-m1 offset-1 col s10 m10 9 ">
 						<div class="card-panel z-depth-1">
 							<div class="row valign-wrapper">
-								<div class="col s4 m3 3">
+								<div id="img-mex" class="col m3 3">
 									<img src="assets/img/mex.png" alt="méxico" class="circle responsive-img">
 								</div>
-								<div class="col s8 m12 12">
+								<div class="col m12 12">
 									<p>
 										<span class="resaltar"> Soy desarrolladora front-end Jr. Entusiasta por aprender nuevas tecnologías 💻
 										y apasionada por el desarrollo móvil y la realidad aumentada.</span>
@@ -79,14 +79,14 @@
 							</div>
 						</div>
 					</div>
-					<section class="offset-s2 offset-m4 offset-4 col s12 m4 4">
+					<section id="datos" class="offset-s1 offset-m4 offset-4 col s10 m4 4">
 						<br>
 							<h5 class=" rosa-tema center mt-20"> Nombre Completo</h5>
 								<p class="resaltar center-align"> Yesenia Sánchez Escárcega </p>
 								<br>
 
 							<h5 class=" rosa-tema center-align"> Correo Eléctronico</h5>
-							<p class="center-align resaltar"> yeseniasescarcega@outlook.it </p>
+							<p class="center-align resaltar center-align"> yeseniasescarcega@outlook.it </p>
 					</section>
 					<ul id="menu-about" class="offset-s1 offset-m3 offset-3 col s1 m1 1 center estrellas">
 						<li title="Portada"><a href="#portada"><i class="material-icons rosa-tema "> star_border </i></li>
@@ -100,7 +100,7 @@
 					<div class="row index-2">
 						<h5 class="offset-s2 offset-m4 offset-4 col s8 m4 4 rosa-tema resaltar"> Pasatiempos </h5>
 				  </div>
-					<section class="row center-align">
+					<section id="hob" class="row center-align">
 						<i class="medium material-icons hobbies purple-text text-darken-3 offset-s3 col s1"> flight_takeoff </i>
 						<i class="medium material-icons hobbies indigo-text col s1"> color_lens </i>
 						<i class="medium material-icons hobbies purple-text text-darken-3 col s1"> directions_bike </i>
@@ -118,15 +118,43 @@
 		<!-- SKILLS -->
 		<section id="skills" class="gradiente-Sec">
 			<section class="row">
-				<h3 class="center offset-s1 offset-m1 offset-2 col s10 m10 8" style="padding:2%">
+				<h3 class="center offset-m1 offset-2 col s12 m10 8" style="padding:2%">
 					<i class="material-icons  white-text "> settings</i>
 					Habilidades Técnicas
 					<i class="material-icons  white-text"> settings </i> <!-- build -->
 				</h3>
 			</section>
-			<section class="row">
+			<section id="mob-listas" class="row">
+				<div class="offset-s1 col s5">
+					<h6 class="resaltar purple-text center"> Flujo de Trabajo & Gestión de Actividades</h6>
+					<ul id="ul1">
+						<li> Agile <i> intermedio</i></li>
+						<li> Git <i> intermedio</i></li>
+						<li> Git Hub <i> intermedio</i></li>
+						<li> Latex <i> básico</i></li>
+						<li> Slack <i> intermedio</i></li>
+						<li> Trello <i> intermedio</i></li>
+					</ul>
+				</div>
+
+				<div class="col s6">
+					<h6 class="resaltar purple-text center"> Front-end</h6>
+					<ul id="ul2">
+						<li> AJAX <i>básico</i></li>
+						<li> Bootstrap <i>intermedio</i></li>
+						<li> CSS3 <i>intermedio</i></li>
+						<li> ES6 <i>básico</i></li>
+						<li> HTML5 <i>intermedio</i></li>
+						<li> Java Script <i>intermedio</i></li>
+						<li> jQuery <i>básico</i></li>
+						<li> Materialize <i>intermedio</i></li>
+						<li> SASS  <i>básico</i></li>
+					</ul>
+				</div>
+			</section>
 				<!--  -->
-				<div class="offset-s2 offset-m2 offset-3 col s8 m3 3">
+			<div class="row">
+				<div class="offset-s1 offset-m2 offset-l2 col s10 m3 l3 btn-listas">
 					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-1')">FLUJO TRABAJO & GESTIÓN ACTVS</a>
 					<ul id="ul-1" class="mt-3">
 						<li>
@@ -156,7 +184,7 @@
 					</ul>
 				</div>
 				<!--  -->
-				<div class="offset-s2 offset-m1 offset-1 col s8 m4 3">
+				<div class="offset-s2 offset-m1 offset-l1 col s8 m4 l3 btn-listas">
 					<a href="#!" id="list2" class="btn" onclick="Materialize.showStaggeredList('#ul-2')">FRONT-END</a>
 					<ul id="ul-2" class="mt-3 row">
 						<div class="col s6 ">
@@ -202,13 +230,14 @@
 					</ul>
 				</div>
 				<!--  -->
-				<ul class="offset-s1 offset-m1 offset-1 col s1 m1 1 center estrellas">
+				<ul class="offset-s1 offset-m1 offset-l2 col s1 m1 l1 center estrellas">
 					<li title="Portada"><a href="#portada"><i class="material-icons purple-text text-darken-3"> star_border </i></a></li>
 					<li title="Acerca de mí"><a href="#about"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
 					<li title="Habilidades técnicas" class="animated infinite rubberBand"><a href=""><i class="material-icons purple-text text-darken-3 mt-95"> star </i></a></li>
 					<li title="Proyectos"><a href="#proyectos"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
 					<li title="Contáctame"><a href="#contacto"><i class="material-icons purple-text text-darken-3 mt-95"> star_border </i></a></li>
 				</ul>
+			</div>
 			</section>
 		</section>
 		<!-- PROYECTOS -->
@@ -222,8 +251,8 @@
 			</section>
 			<section class="row">
 			<!-- Proyecto 1 -->
-				<div id="p1" class="col s8 m3 l3 ml-Dos mr-3 bck-oscuro">
-		          <div class="card">
+				<div id="p1" class="col s10 m3 l3 ml-Dos mr-3 bck-oscuro center offset-s2" >
+		          <div id="card-1" class="card">
 		            <div class="card-image">
 		              <img src="assets/img/sublime.gif">
 		              <span class="card-title rosa-tema">AgenDate</span>
@@ -238,12 +267,12 @@
 		            <div class="card-action">
 		              <a href="https://github.com/IntiDev/agendate" target="_blank">Repositorio Git</a>
 									<a href="https://memecast.github.io/agendate/" target="_blank"><i class="material-icons">search</i></a>
-									<a href="https://xd.adobe.com/view/2e507846-a30b-4e15-9907-7bfaf8c0ab5d" target="_blank"> Flujo de la aplicación</a>
+									<br><a href="https://xd.adobe.com/view/2e507846-a30b-4e15-9907-7bfaf8c0ab5d" target="_blank"> Flujo de la aplicación</a>
 		            </div>
 		          </div>
 		        </div>
 				<!-- proyecto 2 -->
-					<div class=" col s8 m3 l3 bck-oscuro mr-3">
+					<div id="p2" class=" offset-s1 col s10 m3 l3 bck-oscuro mr-3">
 								<div class="card">
 									<div class="card-image">
 										<img src="assets/img/sublime.gif">
@@ -254,10 +283,10 @@
 											Aplicación web como alternativa de transporte que permite el regitro de conductor y/o usuario. <br>
 											Tecnologías usadas: <br> <strong> HTML5, CSS3, Bootstrap, JS.</strong>
 										</p>
-										<br>
-										<br>
-										<br>
-										<br>
+										<br class="ocultar">
+										<br class="ocultar">
+										<br class="ocultar">
+										<br class="ocultar">
 									</div>
 									<div class="card-action">
 										<a href="https://github.com/IntiDev/LabCar" target="_blank">Repositorio Git</a>
@@ -266,7 +295,7 @@
 								</div>
 							</div>
 					<!-- proyecto 3 -->
-						<div class="col s8 m3 l3 mr-5 bck-oscuro">
+						<div id="p3" class="offset-s1 col s10 m3 l3 mr-5 bck-oscuro">
 				          <div class="card">
 				            <div class="card-image">
 				              <img src="assets/img/sublime.gif">
@@ -300,7 +329,7 @@
 		<!-- CONTACTO -->
 		<section id="contacto" class="gradiente-Princ mt-03">
 			<section class="row">
-				<h3 class="center" style="padding:3%;">
+				<h3 class="center col s12" style="padding:3%;">
 					<i class="material-icons  white-text "> computer</i>
 					TRABAJEMOS JUNTOS
 					<i class="material-icons  white-text "> laptop </i> <!-- build -->
