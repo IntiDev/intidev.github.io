@@ -18,7 +18,7 @@
 		<!-- PORTADA -->
 		<section id="portada" class="vistaCompleta gradiente-Princ">
 			<section class="row">
-				<i class="small material-icons white-text  mt-3 dropdown-button left col s12 m12 12" data-activates="opcsMenu">menu</i>
+				<i id="icn-menu" class="small material-icons white-text  mt-3 dropdown-button left col s12 m12 12" data-activates="opcsMenu">menu</i>
 				<!-- Opciones menu -->
 				<ul id="opcsMenu" class="dropdown-content">
 				  <li class=""><a href=""><i class="material-icons -text text-darken-4">menu</i></a></li>
@@ -31,9 +31,9 @@
 				</ul>
 			</section>
 			<section class="marcoLogo row">
-				<img class="responsive-img offset-s2 offset-m3 offset-3 col s8 m6 6 " src="assets/icons/inti-white.svg" alt="logo-Inti">
+				<img class="responsive-img offset-s2 offset-m2 offset-3 col s8 m8 6 " src="assets/icons/inti-white.svg" alt="logo-Inti">
 				<!-- menu estrellas -->
-				<ul id="menu-portada" class="offset-s1 offset-m2 ofsset-2 col s1 m1 1 center estrellas mt-3 ">
+				<ul id="menu-portada" class="m-port offset-s1 offset-m1 ofsset-2 col s1 m1 1 center estrellas mt-3 ">
 					<li title="Menú"><i class="material-icons white-text animated infinite rubberBand"> star </i></li>
 					<li title="Acerca de mí"><a data-scroll href="#about"><i class="material-icons white-text mt-95"> star_border </i></a></li>
 					<li title="Habilidades técnicas"><a href="#skills"><i class="material-icons white-text mt-95"> star_border </i></a></li>
@@ -42,7 +42,7 @@
 			</section>
 			<section class="row ">
 				<i id="flecha-down" class="medium material-icons azul-tema offset-s5 offset-m5 offset-5 col s2 m2 2 animated infinite rubberBand center-align">arrow_downward</i>
-				<ul class="offset-s4 offset-m4 offset-4 col s1 m1 1 center estrellas mt-3">
+				<ul id="menu-estrella-2" class="m-port offset-s4 offset-m4 offset-4 col s1 m1 1 center estrellas mt-3">
 					<li title="Contáctame"><a href="#contacto"><i class="material-icons white-text"> star_border </i></a></li>
 				</ul>
 			</section>
@@ -51,14 +51,14 @@
 		<section id="about" class="bck-melon">
 			<section class="row">
 				<div class="">
-				<h3 id="titulo-sec2"class="center offset-s2 offset-m4 offset-4 col s10 m4 4">
+				<h3 id="titulo-sec2"class="center offset-s2 offset-m2 offset-4 col s10 m8 4">
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 					ACERCA DE MÍ
 					<i class="material-icons  purple-text text-darken-3"> wb_sunny</i>
 				</h3>
 			</section>
 				<section class="row mt-3">
-					<div class="offset-s2 offset-m1 offset-1 col s10 m9 9 ">
+					<div class="offset-s2 offset-m1 offset-1 col s10 m10 9 ">
 						<div class="card-panel z-depth-1">
 							<div class="row valign-wrapper">
 								<div class="col s4 m3 3">
@@ -118,7 +118,7 @@
 		<!-- SKILLS -->
 		<section id="skills" class="gradiente-Sec">
 			<section class="row">
-				<h3 class="center offset-s1 offset-m2 offset-2 col s10 m8 8" style="padding:2%">
+				<h3 class="center offset-s1 offset-m1 offset-2 col s10 m10 8" style="padding:2%">
 					<i class="material-icons  white-text "> settings</i>
 					Habilidades Técnicas
 					<i class="material-icons  white-text"> settings </i> <!-- build -->
@@ -126,8 +126,8 @@
 			</section>
 			<section class="row">
 				<!--  -->
-				<div class="offset-s2 offset-m3 offset-3 col s8 m3 3">
-					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-1')">FLUJO DE TRABAJO & GESTIÓN DE ACTVS</a>
+				<div class="offset-s2 offset-m2 offset-3 col s8 m3 3">
+					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-1')">FLUJO TRABAJO & GESTIÓN ACTVS</a>
 					<ul id="ul-1" class="mt-3">
 						<li>
 							<h5><a href="#">Agile</a></h5>
@@ -156,8 +156,8 @@
 					</ul>
 				</div>
 				<!--  -->
-				<div class="offset-s2 offset-m1 offset-1 col s8 m3 3">
-					<a href="#!" id="list1" class="btn" onclick="Materialize.showStaggeredList('#ul-2')">FRONT-END</a>
+				<div class="offset-s2 offset-m1 offset-1 col s8 m4 3">
+					<a href="#!" id="list2" class="btn" onclick="Materialize.showStaggeredList('#ul-2')">FRONT-END</a>
 					<ul id="ul-2" class="mt-3 row">
 						<div class="col s6 ">
 							<li>

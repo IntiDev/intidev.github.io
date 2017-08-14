@@ -27,7 +27,33 @@ section{
 }
 
 @media(min-width: 768px) and (max-width:1023px){
+    #icn-menu{
+      font-size: 50px;
+    }
 
+    .marcoLogo{
+      margin-top: 25%;
+    }
+
+    .m-port{
+      display: none;
+    }
+
+    #flecha-down{
+      margin-top: 10%;
+    }
+
+    #list1{
+      height: 10%;
+    }
+
+    #proyectos{
+      margin-top: -3%;
+    }
+
+    #menu-proy{
+      margin-top: 10%;
+    }
 }
 
 @media(min-width: 1024px){
@@ -53,6 +79,29 @@ section{
 
   #ul-2{
     margin-left: -20%;
+  }
+
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  #menu-estrella-2{
+    margin-top: -5%;
+  }
+
+  #icn-menu{
+    font-size: 50px;
+  }
+
+  #list1{
+    width: 300px;
+  }
+
+  #list2{
+    margin-left: 25%;
+  }
+
+  #ul-2{
+    margin-left: 10%;
   }
 
 }
